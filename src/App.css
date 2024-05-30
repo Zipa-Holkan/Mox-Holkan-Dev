@@ -1,0 +1,40 @@
+/* App.css */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  position: relative;
+  background-color: #ffbf00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px 20px;
+  transition: background-color 0.3s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+button:hover {
+  background-color: #e6a600;
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+}
+

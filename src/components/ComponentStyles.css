@@ -1,0 +1,42 @@
+/* ComponentStyles.css */
+
+/* Estilos para los modales */
+.modal {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  /* Estilos para el menú */
+  .menu {
+    margin-bottom: 20px;
+  }
+  
+  .menu button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .menu button:hover {
+    background-color: #388e3c;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
