@@ -48,12 +48,12 @@ function App() {
       <Menu setActiveModal={setActiveModal} />
       {accountAddress && (
         <button className="green-button" onClick={handleDisconnectWalletClick}>
-          Disconnect from Pera Wallet
+          Desconectar
         </button>
       )}
       {!accountAddress && (
         <button className="connect-button" onClick={handleConnectWalletClick}>
-          Connect to Pera Wallet
+          Connectar a Pera Wallet
         </button>
       )}
 
